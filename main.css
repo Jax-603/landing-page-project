@@ -19,17 +19,18 @@ color:#f9faf8;
 .logo
 {
   Display:flex;
+  border:solid red 2px;
   flex-wrap: wrap;
   height: 50px;
   flex:1 1 auto;
   align-items: center;
-  padding-left: 100px;
+  padding-left: 200px;
 }
 /*centers and moved child elements within logo div*/
 .logo div
 {
   text-align: center;
-  margin-left: 50px;
+  margin-left:20px;
 }
 
 /*moved the first child over*/
@@ -55,6 +56,7 @@ color: #e5e7eb;
   margin-left: 90px;
   margin-top: 20px;
   justify-content: flex-start;
+  flex: 1 1 auto;
 }
 
 .H2
