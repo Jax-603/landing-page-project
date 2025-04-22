@@ -1,0 +1,229 @@
+/*Gets rid of white border around flexbox by getting rid of default html body margin*/
+body
+{
+  margin:0px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/*flexbox that contains whole header section*/
+.parent
+{
+Display:flex;
+border:solid green 3px;
+Height:450px;
+flex-wrap: wrap;
+background-color:hsl(215, 28%, 17%);
+font-size: 24px;
+color:#f9faf8;
+width: 1 1 auto;
+}
+/*flexbox that contains logo and links*/
+.logo
+{
+  Display:flex;
+  Border:solid black 3px;
+  flex-wrap: wrap;
+  width: 1 1 auto;
+  height: 50px;
+  flex:1 1 auto;
+  align-items: center;
+  padding-left: 100px;
+}
+/*centers and moved child elements within logo div*/
+.logo div
+{
+  text-align: center;
+  margin-left: 50px;
+}
+
+/*moved the first child over*/
+.items:nth-child(1)
+{
+padding-left: 400px;
+}
+
+/*changes link font size and color*/
+.a, a:link
+{
+font-size:18px;
+color: #e5e7eb;
+
+}
+/*flexbox within header flexbox that has describtion of website and first sign-up button*/
+.container
+{
+  Display:flex;
+  border:solid red 2px;
+  height:270px;
+  Width:450px;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.H2
+{
+  Margin-bottom:-20px;
+}
+
+.fun-text
+{
+  font-size:20px;
+  margin-bottom: 10px;
+}
+/*flexbox inside header flexbox that aligns image*/
+.img-flex
+{
+display: flex;
+flex-wrap: wrap;
+border:solid Yellow 3px;
+Height:270px;
+margin-left: 50px;
+margin-top: 20px;
+}
+/*sizes images in previous flexbox*/
+.place_holder
+{
+height: 270px;
+width: 550px;
+}
+
+.H1 
+{
+  text-align: center;
+}
+/*flexbox for main body that control images and text*/
+.body_images
+{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  border:solid pink 3px;
+}
+/*sizes images*/
+.blank
+{
+height: 200px;
+width: 250px;
+}
+/*had to include this because without margin image was for some reason at top of flexbox border and not center*/
+.blank2
+{
+  height: 200px;
+  width: 250px;
+  margin-top: 50px;
+}
+/*flexbox within mainbody flexbox to align images and text*/
+.img_text
+{
+  display: flex;
+  border:solid orange 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*center text within img text flex box*/
+.Body_text
+{
+text-align: center;
+}
+/*flexbox container for quote*/
+.container_2
+{
+  Display:flex;
+  Border: solid;
+  background-color: lightslategray;
+  justify-content: center;
+  align-items: center;
+  height:300px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+/*flexbox container for quote*/
+.Quote
+{
+display: flex;
+flex-wrap: wrap;
+width:400px;
+text-align: center;
+margin-top: 50px;
+margin-left: 80px;
+font-size: 20px;
+}
+
+.Customer
+{
+margin-top: 180px;
+}
+/*flexbox container for call to action*/
+.container_3
+{
+  Display:flex;
+  border: solid;
+  background-color: darkblue;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  height:100px;
+  max-width: 900px;
+  margin-left: 190px;
+}
+/*Changes text color and sizefor sign up in container 3 */
+.Sign_up
+{
+  font-size: 20px;
+  color: white;
+}
+/*aligns text in flexbox*/
+.Please
+{
+  font-size: 15px;
+  margin-top: -20px;
+  color: white;
+}
+/*sign up button #2*/
+.button_2
+{
+  height:40px;
+  width:120px;
+  border-color: white;
+  background-color: darkblue;
+  color:white;
+  border-radius:10px;
+  transition:0.1;
+}
+
+.button_2:hover
+{
+  opacity: 0.7;
+}
+/*flexbox with footer at end of page */
+.footer
+{
+  margin-top: 50px;
+  display: flex;
+  background-color:#1F2937;
+  justify-content: center;
+  align-items: center;
+  Height: 100px;
+  color:white;
+}
+/*sign up button #1 at top, not sure why I pushed it way down here*/
+.button-one
+{
+  background-color: rgb(0, 17, 255);
+  color:white;
+  height:30px;
+  Width:120px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.1;
+  margin-top: 7px;
+}
+
+.button-one:hover
+{
+  opacity: 0.6;
+}
+
