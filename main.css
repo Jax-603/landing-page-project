@@ -44,7 +44,7 @@ padding-left: 600px;
 {
 font-size:18px;
 color: #e5e7eb;
-
+padding-left: 10px;
 }
 /*flexbox within header flexbox that has describtion of website and first sign-up button*/
 .container
@@ -119,6 +119,7 @@ width: 250px;
 .Body_text
 {
 text-align: center;
+font-size: 12px;
 }
 /*flexbox container for quote*/
 .container_2
@@ -138,7 +139,6 @@ display: flex;
 flex-wrap: wrap;
 width:400px;
 text-align: center;
-margin-top: 50px;
 margin-left: 80px;
 font-size: 20px;
 }
@@ -154,12 +154,14 @@ margin-top: 180px;
   border: solid;
   background-color: darkblue;
   align-items: center;
-  justify-content: space-around;
   margin-top: 50px;
+  justify-content: space-around;
   height:100px;
   max-width: 900px;
-  margin-left: 190px;
+  margin-left: 250px;
+  
 }
+
 /*Changes text color and sizefor sign up in container 3 */
 .Sign_up
 {
