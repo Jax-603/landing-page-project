@@ -23,7 +23,7 @@ flex:1 1 auto;
   height: 50px;
   flex:1 1 auto;
   align-items: center;
-  padding-left: 100px;
+  padding-left: 90px;
   font-size: 24px;
 }
 /*centers and moved child elements within logo div*/
@@ -36,7 +36,7 @@ flex:1 1 auto;
 /*moved the first child over*/
 .items:nth-child(1)
 {
-padding-left: 700px;
+padding-left: 720px;
 }
 
 /*changes link font size and color*/
