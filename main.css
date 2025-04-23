@@ -137,7 +137,6 @@ font-size: 12px;
 .Quote
 {
 display: flex;
-border:solid brown 2px;
 flex-wrap: wrap;
 width:400px;
 text-align: center;
@@ -162,7 +161,7 @@ margin-top: 180px;
   justify-content: space-around;
   height:100px;
   max-width: 900px;
-  margin-left: 275px;
+  margin-left:300px;
   
 }
 
