@@ -31,12 +31,13 @@ flex:1 1 auto;
 {
   text-align: center;
   margin-left:20px;
+  justify-content: flex-end;
 }
 
 /*moved the first child over*/
 .items:nth-child(1)
 {
-padding-left: 720px;
+padding-left: 750px;
 }
 
 /*changes link font size and color*/
